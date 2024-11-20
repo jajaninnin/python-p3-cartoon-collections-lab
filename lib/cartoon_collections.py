@@ -23,7 +23,6 @@ def long_planeteer_calls(lst):
 
 def find_the_cheese(lst):
     cheese = ['cheddar', 'gouda', 'camembert']
-    # for word in lst:
     result = [word for word in cheese if word in lst]
     if len(result) > 0:
         return result[0]
